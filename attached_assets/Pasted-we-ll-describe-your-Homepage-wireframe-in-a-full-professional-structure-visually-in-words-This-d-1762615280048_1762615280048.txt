@@ -1,0 +1,266 @@
+we’ll describe your Homepage wireframe in a full, professional structure — visually in words.
+This description will act as your blueprint when you or the Replit agent builds it later.
+
+🏠 HOMEPAGE WIREFRAME — “Digital Tech Drive”
+🔹 1. HEADER (Navigation Bar)
+Structure:
+
+A fixed header at the top that remains visible while scrolling.
+
+Elements (Left to Right):
+
+Left: Logo of Digital Tech Drive (circle or square shape, with flame/gear-type emblem).
+
+Center: Navigation Menu
+
+Home | About | Courses | AI Career Guide | Gallery | Contact
+
+Right: “Call Now” button (red/orange gradient) → clickable to open phone dialer.
+
+Animation:
+
+When page loads, the header slides down softly.
+
+When user scrolls down, it shrinks slightly (sticky mode).
+
+On hover, menu links glow with color from your palette (red → orange → yellow etc., rotating per hover).
+
+Color Style:
+
+Background: White
+
+Text: Deep grey or black
+
+Active menu underline: Gradient line (red → violet)
+
+🔹 2. HERO SECTION (Full-Width Slider)
+
+Size: 1366×351 px (desktop ratio)
+
+Layout:
+
+Full-width image slider with 5–7 rotating banners.
+
+Example images:
+
+Students working on computers
+
+Instructor explaining
+
+Certificates
+
+MKCL & DEEP branding
+
+“Digital India / Skill Development” theme visuals
+
+Overlays:
+
+Semi-transparent dark filter (for readability)
+
+Center text (animated fade-in):
+
+“Empowering Lakhisarai’s Youth for a Digital Future”
+
+Subline: “Learn, Grow, and Get Job-Ready with Government Recognized Courses”
+
+Buttons below text:
+
+🔵 Explore Courses
+
+🟢 AI Career Guide
+
+Animation:
+
+Each slide fades in & slides horizontally every 5 seconds.
+
+Buttons animate from below with a soft bounce.
+
+Background overlay has a gradient animation (very subtle color wave).
+
+🔹 3. ABOUT INSTITUTION SECTION
+
+Layout:
+
+Two-column structure (Left: image, Right: text)
+
+Left:
+Photo or illustration of your institute or classroom.
+Image zooms in gently when scrolled into view.
+
+Right:
+Heading: “Welcome to Digital Tech Drive”
+Paragraph:
+
+“Digital Tech Drive is a Skill Development Center in Lakhisarai, Bihar, empowering youth through advanced computer and employability courses. We offer KYP, DEEP (MKCL), and ADCA programs to prepare students for today’s digital workforce.”
+
+Icons Below Text (animated on hover):
+
+🎯 Mission: “Empower local youth digitally”
+
+💡 Vision: “Bridge the skill gap for better employability”
+
+🤝 Values: “Quality, Affordability, Growth”
+
+Animation:
+
+Section fades in from bottom.
+
+Icons appear one by one with slight rotation.
+
+Color Style:
+
+Background: White
+
+Text: Deep grey
+
+Accent icons: gradient from orange → blue.
+
+🔹 4. COURSES OVERVIEW SECTION
+
+Layout:
+3 Colorful Course Cards aligned horizontally:
+
+Card	Title	Description	Color Accent
+1️⃣	KYP	“Kushal Yuva Programme — Building basic digital and communication skills.”	Orange
+2️⃣	DEEP	“80+ advanced digital courses by MKCL to enhance employability.”	Blue
+3️⃣	ADCA	“Advanced Diploma in Computer Applications — practical IT training.”	Green
+
+Each Card Includes:
+
+Course icon (e.g., 💻)
+
+Short paragraph (2 lines)
+
+“Know More” button (color glow)
+
+Hover animation: lift up slightly + shadow glow
+
+Animation:
+
+As user scrolls, each card slides upward one by one.
+
+Color transitions match your palette (Red → Orange → Green → Blue).
+
+🔹 5. AI CAREER ADVISOR SECTION 🤖 (Main Attraction)
+
+Layout:
+Full-width soft gradient background (Blue → Pink → Orange).
+
+Left Side:
+Illustration or floating icon of an AI assistant (robot/brain/chat icon) with pulsating glow.
+
+Right Side:
+Text box with heading:
+
+“Not sure which course fits you best?”
+“Let our AI Career Advisor guide you!”
+
+Below that → “Start Quiz” button.
+
+When Clicked:
+
+Popup/Modal opens (Chat interface style)
+
+3–4 Multiple choice questions:
+
+“Which subject did you study in 12th?”
+
+“What career field excites you?”
+
+“Would you prefer job-oriented or creative learning?”
+
+After questions → Suggests 3 best-fit courses (e.g., DEEP Data Science, KYP, ADCA).
+
+Animation:
+
+Robot floats gently left-right (loop)
+
+Button pulses every few seconds
+
+Chat popup expands smoothly when opened
+
+Later Integration:
+Gemini API will handle the “suggestion” logic in background.
+
+🔹 6. GALLERY SECTION
+
+Layout:
+Masonry-style grid with various image sizes (like Instagram feed).
+Each image: border-radius 10px, soft shadow.
+
+On hover:
+
+Zoom-in animation
+
+Overlay text: “Training Session”, “Lab”, “Award Ceremony” etc.
+
+Lightbox opens on click.
+
+Animation:
+
+Images appear in sequence with fade + zoom effect.
+
+Background color: very light grey.
+
+🔹 7. CONTACT SECTION
+
+Layout:
+Two-column section.
+
+Left:
+Google Map embed showing the institute’s location (Kabaiya Road, Lakhisarai)
+
+Right:
+Text details:
+
+📍 Address: Kabaiya Road, Naya Bazar, Lakhisarai, Bihar
+
+📞 Phone: +91 62065 28684 / 7004973244
+
+✉️ Emails:
+
+digitaltechdrive@gmail.com
+
+kysdc2017lakhisarai@gmail.com
+
+Optional “Send Message” form (Name, Email, Message).
+
+Animation:
+
+Map slides in from left.
+
+Contact info slides in from right.
+
+Icons glow on hover.
+
+🔹 8. FOOTER
+
+Layout:
+Full-width bar with three sections:
+
+Left: Logo + tagline
+
+“Empowering Lakhisarai’s Youth for a Digital Future.”
+
+Center: Quick Links
+
+Home, Courses, AI Career Guide, Contact
+
+Right: Social Media icons (Facebook, Instagram, YouTube)
+
+Animation:
+
+Gradient glow background (grey → white → grey slow loop)
+
+Icons rotate gently on hover.
+
+✨ Homepage Animation Summary
+Section	Animation Type	Tool / Effect
+Header	Slide-in	Framer Motion / AOS
+Hero Slider	Cross-fade + slide	Swiper.js
+About	Fade-in	AOS
+Courses	Slide-up + color glow	CSS + AOS
+AI Advisor	Floating + popup expand	CSS + JS
+Gallery	Zoom sequence	AOS
+Contact	Slide from sides	AOS
+Footer	Gradient motion	CSS animation

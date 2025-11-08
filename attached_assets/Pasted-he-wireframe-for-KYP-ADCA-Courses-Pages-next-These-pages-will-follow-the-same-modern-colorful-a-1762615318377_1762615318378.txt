@@ -1,0 +1,225 @@
+he wireframe for KYP & ADCA Courses Pages next.
+These pages will follow the same modern, colorful, animated theme as the homepage and DEEP page, but they will be simpler since these programs have fewer courses than DEEP.
+
+🎓 KYP & ADCA COURSES PAGE WIREFRAME
+
+Page Title:
+
+For KYP: “Kushal Yuva Programme (KYP) Courses”
+
+For ADCA: “Advanced Diploma in Computer Applications (ADCA) Courses”
+
+Purpose:
+
+Show all available courses for the program
+
+Allow users to browse courses easily
+
+Highlight course details
+
+Optional AI Assistant guidance for course selection
+
+🔹 1. TOP HEADER SECTION
+
+Layout & Elements:
+
+Same as homepage / DEEP page
+
+Logo left
+
+Nav menu: Home | About | Courses | AI Guide | Gallery | Contact
+
+Call Now button right
+
+Animation: slide-in from top, active menu item highlighted
+
+Background: white
+
+Text: deep grey
+
+🔹 2. HERO SECTION
+
+Layout:
+
+Full-width banner (1366×351 px)
+
+KYP/ADCA-specific imagery:
+
+KYP → young students learning digital skills
+
+ADCA → practical computer lab / certificate event
+
+Overlay Text:
+
+KYP: “Building Digital Skills for the Next Generation”
+ADCA: “Practical IT Training for Career Success”
+
+Buttons:
+
+🔵 “View Courses” → scroll down to course list
+
+🟢 “AI Career Advisor” → opens assistant
+
+Animation:
+
+Text fades in with slight upward slide
+
+Buttons pulse subtly
+
+Background image carousel (optional)
+
+🔹 3. ABOUT THE PROGRAM SECTION
+
+Layout: Two-column layout
+
+Left → image of students / lab
+
+Right → text block
+
+Content Examples:
+
+KYP:
+
+“Kushal Yuva Programme focuses on building basic digital literacy and employability skills for students and youth of Lakhisarai. The program equips learners for the first step into the digital workforce.”
+
+ADCA:
+
+“Advanced Diploma in Computer Applications teaches practical IT skills such as Word, Excel, PowerPoint, and basic programming. Students gain hands-on experience to excel in professional environments.”
+
+Animation:
+
+Section fades in from bottom
+
+Image gently zooms in
+
+Text slides from left
+
+🔹 4. COURSES SECTION
+
+Layout: Responsive grid
+
+2–3 cards per row (desktop), 1–2 per row on tablet
+
+Each card includes:
+
+Course Name
+
+Duration (60–120 hours)
+
+Icon representing the subject (💻, 🖥️, 📝)
+
+Short description (1–2 lines)
+
+Buttons: “Know More” → opens popup, “Ask AI” → triggers AI suggestion
+
+Animation:
+
+Cards slide up sequentially on scroll
+
+Hover: lift + colored glow (matching program theme)
+
+Color Palette:
+
+KYP → Orange / Yellow / Red accents
+
+ADCA → Blue / Green / Teal accents
+
+🔹 5. COURSE DETAILS POPUP
+
+Layout:
+
+Centered modal popup with soft shadow / glow
+
+Left → course icon + basic info
+
+Right → detailed description + AI assistant suggestion button
+
+Animation:
+
+Popup zooms in
+
+Background blurs softly
+
+AI response types letter-by-letter if used
+
+Example Card:
+
+Course: MS Excel Basics
+Duration: 60 Hours
+Description: “Learn the essentials of MS Excel including formulas, charts, and data management skills for workplace efficiency.”
+AI Suggestion: “This course is recommended if you are starting your digital skill journey or want to improve office productivity skills.”
+
+🔹 6. AI COURSE ADVISOR SECTION
+
+Optional section embedded in page:
+
+Same design as DEEP page AI assistant
+
+Prompts:
+
+“Which skills are you looking to improve?”
+
+“Do you prefer office, programming, or creative tasks?”
+
+Suggests KYP / ADCA courses accordingly
+
+Animation:
+
+Chat window slides in
+
+Floating AI icon pulses
+
+Message bubbles appear sequentially
+
+🔹 7. CTA SECTION
+
+Layout:
+
+Banner-style, full-width
+
+Text:
+
+“Kickstart Your Career with KYP / ADCA Courses at Digital Tech Drive!”
+
+Buttons: “Enroll Now” / “Contact Us”
+
+Animation:
+
+Slide-up on scroll
+
+Buttons glow with gradient pulse
+
+🔹 8. FOOTER
+
+Layout:
+
+Same as homepage and DEEP page
+
+Quick links to KYP / ADCA / DEEP courses
+
+Contact info
+
+Social media icons
+
+Animation:
+
+Gradient background
+
+Icons rotate gently on hover
+
+🎨 COLOR & UI GUIDELINES
+Element	KYP Colors	ADCA Colors
+Accent / Borders	Orange → Yellow → Red	Blue → Teal → Green
+Buttons	Gradient pulse matching theme	Gradient pulse matching theme
+Cards	Light grey base with colored border	Light grey base with colored border
+Background	White / Soft gradient	White / Soft gradient
+🧩 ANIMATION SUMMARY
+Section	Animation Type	Effect / Tool
+Header	Slide-in	CSS / AOS
+Hero	Fade + slide	Swiper.js optional
+About	Fade + Slide	AOS
+Courses	Sequential Slide-up	AOS / Intersection Observer
+Popup	Zoom + Typing	JS / Gemini API
+AI Section	Chat typing animation	JS / Gemini API
+CTA	Slide-up + Button glow	CSS keyframes
+Footer	Gradient animation	CSS

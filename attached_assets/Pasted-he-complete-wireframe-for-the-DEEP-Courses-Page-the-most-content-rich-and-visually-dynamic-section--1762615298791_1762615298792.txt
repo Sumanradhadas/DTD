@@ -1,0 +1,236 @@
+he complete wireframe for the DEEP Courses Page,
+the most content-rich and visually dynamic section of the Digital Tech Drive website.
+
+This will be your core showcase page, and it should look visually impressive, extremely organized, and animation-rich while still easy for students to navigate.
+
+🎓 DEEP COURSES PAGE WIREFRAME
+
+Title: “DEEP (Digital Employability Enhancement Program) by MKCL”
+Purpose: To visually showcase all 80+ DEEP certificate courses in an organized, interactive, and colorful format — while letting users get AI-based recommendations and course details easily.
+
+🔹 1. TOP HEADER SECTION
+
+Layout:
+
+Full-width header with gradient background (Blue → Violet → Pink).
+
+Overlay text in center (animated typing or glow effect):
+
+“DEEP Courses – Bridge from College to Career”
+“80+ Job-Ready Digital Courses under MKCL’s DEEP Program”
+
+Subtext:
+
+“Explore, Learn, and Get Certified in Digital, Creative, and Management Skills.”
+
+Animation:
+
+Text fades in line by line.
+
+Background gradient slowly shifts colors (smooth infinite animation).
+
+Button Below Header:
+🟢 “Use AI Course Advisor” → scrolls to AI assistant section
+🔵 “Explore All Courses” → scrolls down
+
+🔹 2. DEEP TRACKS SECTION (12 Skill Tracks Overview)
+
+Purpose: To help users understand the domains before browsing individual courses.
+
+Layout:
+A colorful grid or circular wheel layout with 12 segments (each representing a sector).
+
+Track	Icon Example	Color Accent
+Back Office	🗂️	Orange
+Digital Designing	🎨	Purple
+CAD Careers	🏗️	Teal
+Digital Freelancing	💻	Blue
+Front Office	🏢	Green
+IT Hardware, Networking & Cyber Security	🔐	Deep Blue
+Services Management	🧭	Pink
+New Collar Track	🧠	Indigo
+Software Development	💾	Red
+Data Science	📊	Yellow
+Digital Creative Art	🖌️	Violet
+Financial Accounting	💰	Lime Green
+
+Hover Animation:
+
+Each icon scales up slightly and glows.
+
+Track name appears with gradient underline.
+
+Entry Animation:
+
+Each block/segment fades in from the center in a circular motion.
+
+🔹 3. COURSE FILTER & SEARCH BAR
+
+Layout:
+Centered above the course cards.
+
+Elements:
+
+🔍 Search bar: “Search by course name or keyword”
+
+🧭 Filter dropdown: “Select Track”
+
+🕒 Filter: “Select Duration (60 or 120 hours)”
+
+Reset button (to clear filters)
+
+Animation:
+
+Bar slides in from top with smooth fade.
+
+Filter options glow slightly when hovered.
+
+🔹 4. COURSE GRID DISPLAY (Main Section)
+
+This is the core display of 80+ courses.
+
+Layout:
+Responsive grid (3–4 cards per row on desktop, 2 on tablet, 1 on mobile).
+Each course represented as an animated, colorful card.
+
+🧩 Course Card Structure:
+Element	Description
+Top Ribbon (Color-coded)	Color represents track (e.g., Red = Programming, Blue = Digital Arts)
+Icon	Related emoji or small icon (e.g., 🧠 for AI, 💻 for Web, 📊 for Data)
+Course Name	e.g., “Foundations of Artificial Intelligence (AI) and ML”
+Duration	60 or 120 hours
+Short Description	1–2 lines summary
+Buttons	🔹 “Know More” (opens popup) 🔹 “Add to Compare” (optional future feature)
+
+Card Animation:
+
+Fade and scale-in on scroll.
+
+Hover → card lifts slightly, shadow glows color of its track.
+
+Cards appear sequentially in rainbow order to match your palette.
+
+🔹 5. COURSE DETAILS POPUP (AI-INTEGRATED)
+
+Triggered when clicking “Know More” on a course.
+
+Layout:
+A centered modal popup with soft blurred background.
+
+Inside Popup:
+
+Left Side: Course icon + basic info
+
+Right Side: AI description section
+
+Example:
+
+Course: Foundations of AI & ML
+Duration: 60 Hours
+Track: Data Science / Programming
+Description (AI-generated via Gemini API):
+“This course introduces you to artificial intelligence concepts, ML algorithms, and how data drives automation in today’s digital world. Perfect for students with logical thinking or science background.”
+
+Below that:
+🟢 “Ask AI: Can this course fit my goals?”
+→ When clicked, Gemini AI gives personalized suggestion or comparison with similar DEEP courses.
+
+Animation:
+
+Popup zooms in.
+
+Background darkens softly.
+
+AI response types letter-by-letter (typing animation).
+
+🔹 6. AI COURSE ADVISOR (Embedded Section)
+
+Layout:
+Full-width gradient background (Light Blue → Light Pink).
+Chat-style interface inside the page (no popup this time).
+
+Heading:
+
+“Find Your Perfect DEEP Course Instantly”
+“Let our AI Career Guide recommend the right course for you.”
+
+Chat Area:
+
+AI avatar (floating bubble)
+
+Chat messages appear like:
+
+AI: “Which subject did you study in 12th?”
+
+User: chooses from multiple options (Science / Commerce / Arts)
+
+AI: “Do you enjoy creative tasks or analytical problem solving?”
+
+AI: “You may like ‘Digital Designing’ or ‘Data Analytics’ courses!”
+
+Animation:
+
+Chat window slides in when scrolled into view.
+
+Message bubbles appear sequentially with typing effect.
+
+Gemini API Integration Plan:
+
+Prompt template will include user’s answers to generate relevant course suggestions dynamically.
+
+🔹 7. FEATURED COURSES SECTION (Highlight Few)
+
+Layout:
+Carousel (horizontal scroll or auto-slide).
+Show 6–8 “most popular” DEEP courses —
+like “WebCraft Fundamentals”, “Data Analytics”, “Digital Marketing Pro”, etc.
+
+Each course card larger and has “🔥 Popular” tag.
+
+Animation:
+
+Continuous smooth horizontal scroll.
+
+Cards glow subtly one after another.
+
+🔹 8. CALL TO ACTION SECTION
+
+Layout:
+Centered banner with light background.
+
+“Ready to Begin Your DEEP Journey?”
+“Join Digital Tech Drive and Get Certified from MKCL.”
+
+🟢 “Contact Us” | 🔵 “Enroll Today” (two big buttons)
+
+Animation:
+
+Section slides up smoothly as you reach bottom.
+
+Buttons pulse with gradient glow (orange → blue → violet).
+
+🔹 9. FOOTER (Shared with Homepage)
+
+Same as homepage but slightly different tone:
+Background gradient (light grey → white), with course category quick links:
+
+KYP | DEEP | ADCA | AI Guide | Contact
+
+🧠 Summary Table — Animation & Tools Plan
+Section	Animation Type	Effect / Tool
+Header	Gradient + Text Fade	CSS keyframes
+DEEP Tracks	Scale + Glow	AOS / Framer Motion
+Filter Bar	Slide from Top	AOS
+Course Cards	Sequential Fade	AOS + IntersectionObserver
+Popup	Zoom & Typing Effect	JS + Gemini API
+AI Advisor	Chat Typing Animation	JS + Gemini API
+Featured Carousel	Auto-scroll + Glow	Swiper.js
+CTA Section	Slide-up + Button Pulse	CSS keyframes
+🎨 Color + UI Guidelines for This Page
+Element	Color Scheme
+Background	White
+Track colors	Use your full palette (Red, Orange, Yellow, Green, Teal, Blue, Indigo, Violet, Pink)
+Buttons	Gradient glow (Orange → Blue)
+Cards	Light grey base with colored border
+Popup	White box, shadow glow color matches track
+Fonts	Poppins / Inter (clean, rounded)

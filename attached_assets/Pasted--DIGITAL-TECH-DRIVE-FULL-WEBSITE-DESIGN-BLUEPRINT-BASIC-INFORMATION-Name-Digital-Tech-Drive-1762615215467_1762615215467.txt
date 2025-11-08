@@ -1,0 +1,271 @@
+🌐 DIGITAL TECH DRIVE — FULL WEBSITE DESIGN BLUEPRINT
+🏫 BASIC INFORMATION
+
+Name: Digital Tech Drive
+Type: Skill Development & Training Center
+Location: Lakhisarai, Bihar, India
+Address: Kabaiya Road, Naya Bazar, Lakhisarai, Bihar, India
+Phone: +91 62065 28684 / 7004973244
+Email: digitaltechdrive@gmail.com
+ / kysdc2017lakhisarai@gmail.com
+
+Affiliations / Programs Offered:
+
+KYP (Kushal Yuva Programme)
+
+DEEP (Digital Employability Enhancement Programme) — by MKCL
+
+ADCA (Advanced Diploma in Computer Applications)
+
+⚙️ OVERALL STRUCTURE
+
+Total Pages: 4 main + 1 popup (AI Assistant)
+
+1️⃣ Home
+2️⃣ Courses
+3️⃣ About
+4️⃣ Contact
+5️⃣ (AI Assistant Popup — visible globally)
+
+🖥️ HOME PAGE — DETAILED SECTION PLAN
+1. HERO SECTION (TOP BANNER)
+
+Purpose: First visual impact — communicate the institution’s identity and appeal instantly.
+
+🧩 Layout:
+
+Full-width sliding image banner (carousel)
+
+Size: Width 1366px × Height 351px
+
+Will automatically cycle 3–5 images (e.g., students in lab, computer class, DEEP logo, youth learning)
+
+Text overlay at center with light animation (fade-in / slide-up)
+
+✨ Animations:
+
+Smooth slide transition (left-to-right)
+
+Each image fades slightly before next one slides
+
+Text overlay fades and reappears with each image
+
+“Enroll Now” / “Explore Courses” button glows subtly (color gradient animation)
+
+🏷️ Text Content:
+
+Main Heading: “Empowering Lakhisarai’s Youth for a Digital Future”
+Subtext: “Digital Tech Drive is a Skill Development Center offering KYP, DEEP, and ADCA courses to enhance employability and digital skills.”
+CTA Button: “Explore with AI Guidance” (opens AI assistant popup)
+
+2. ABOUT INSTITUTION (INTRO BLOCK)
+
+Purpose: Introduce the organization in short, friendly, inspiring words.
+
+📄 Content:
+
+Title: “About Digital Tech Drive”
+Text (example):
+
+Digital Tech Drive is a government-recognized training and skill development institute in Lakhisarai, Bihar. We aim to empower local youth through digital education, practical training, and employability programs like KYP, DEEP (by MKCL), and ADCA.
+
+Animation:
+
+Text slides in from left
+
+An accompanying photo slides from right (with border glow animation)
+
+Background gradient slowly shifts through soft multi-color hues
+
+3. COURSES OVERVIEW SECTION
+
+Purpose: Show the three main offerings — visually distinct and interactive.
+
+🧩 Layout:
+
+Three cards aligned horizontally (responsive grid on mobile).
+Each card has a unique color border and hover animation.
+
+Course	Accent Color	Description
+KYP	Orange (#FF9500)	Learn essential communication and computer skills to boost confidence and employability.
+DEEP (MKCL)	Blue (#0A84FF)	Access 90+ skill enhancement modules designed to bridge education and career opportunities.
+ADCA	Green (#34C759)	Gain advanced computer application skills for IT, data, and office operations.
+✨ Animations:
+
+Cards fade in one-by-one on scroll (AOS or Framer Motion)
+
+Hover: card lifts slightly, border glows
+
+Button pulse animation for “Know More”
+
+Buttons:
+
+“Know More” → links to respective detailed course section/page
+
+“Ask AI about this Course” → opens Gemini-powered popup prefilled for that course
+
+4. AI COURSE SELECTION ASSISTANT SECTION (MAIN ATTRACTION)
+
+Purpose: Engage users with a personalized course selection tool.
+
+💡 Concept:
+
+A floating circular button labeled “Ask DTD AI” appears at the bottom right of every page.
+Click → opens a modern popup chat interface.
+
+🧩 UI Design:
+
+Glass-effect modal box with gradient-glow border
+
+Chat bubbles for both user and AI
+
+Animated typing dots for Gemini responses
+
+Multiple-choice cards for quick answers
+
+🤖 AI Logic (Gemini API):
+
+Ask student’s last education level
+
+Ask favorite subject/interest
+
+Ask what career goal they have
+
+Gemini analyzes → suggests:
+
+KYP if basic employability
+
+DEEP + sub-course if skill-focused
+
+ADCA if technical learning needed
+
+(optional) link to relevant course page
+
+✨ Animations:
+
+AI button pulsates slowly
+
+Popup slides up with fade-in blur
+
+Each question appears with bounce effect
+
+Gemini’s reply types letter-by-letter (typing animation)
+
+5. WHY CHOOSE US SECTION
+
+Purpose: Build trust and highlight institutional strengths.
+
+📋 Points:
+
+MKCL Affiliated Training Partner
+
+Practical Lab-Based Learning
+
+Career-Oriented Modules
+
+Experienced Trainers
+
+AI-Integrated Guidance
+
+🎨 Design:
+
+5 icons in colorful circular cards
+
+Hover → card rotates slightly and changes color gradient
+
+✨ Animations:
+
+Sequential fade-up
+
+Subtle gradient movement on hover
+
+6. CONTACT / LOCATION SECTION
+
+Purpose: Let visitors easily find and reach the center.
+
+📍 Layout:
+
+Left side: Contact info & icons
+Right side: Embedded Google Map
+
+Content:
+
+Address: Kabaiya Road, Naya Bazar, Lakhisarai, Bihar, India
+
+Phone: +91 62065 28684 / 7004973244
+
+Email: digitaltechdrive@gmail.com
+ / kysdc2017lakhisarai@gmail.com
+
+Buttons:
+
+“Call Now”
+
+“Get Directions”
+
+✨ Animations:
+
+Map fades in on scroll
+
+Icons pulse gently on hover
+
+Section background gradient slowly transitions from light blue to white
+
+🧱 OTHER PAGES
+COURSES PAGE
+
+A dedicated page with expandable sections for:
+
+KYP
+
+DEEP (with course categories, AI filter)
+
+ADCA
+
+Each course card animation:
+
+Slide-up + bounce
+
+“View Details” opens modal with course info
+
+ABOUT PAGE
+
+Timeline animation (year → year) showing institute growth
+
+Side-scrolling gradient ribbon background
+
+Fade-in photo of the training center
+
+CONTACT PAGE
+
+Animated contact form (each field glows on focus)
+
+Embedded map fade-in
+
+“Send Message” button changes gradient when hovered
+
+🔧 TECHNICAL EXECUTION PLAN
+Function	Tool / Library	Purpose
+Framework	React + Vite	Lightweight, fast
+Styling	TailwindCSS	Responsive design
+Animation	Framer Motion + AOS	Scroll & element animations
+AI Integration	Gemini API (Google Generative AI SDK)	AI guidance
+Icons	Lucide-react / Heroicons	Simple SVG icons
+Carousel	Swiper.js	Sliding images in hero section
+Hosting	Replit (development), Render/Netlify (free deployment)	Free static hosting
+🪄 ANIMATION STYLE GUIDE
+Element	Animation Type
+Page Load	Fade-in with gradient shimmer
+Section Entry	Scroll-triggered slide/fade
+Buttons	Gradient hover + glow pulse
+Cards	Hover lift + border color animation
+Text	Typewriter effect in headings
+AI Popup	Glassmorphism + slide-up entry
+Map	Zoom + fade on appear
+🧩 FINAL NOTES
+
+✅ Website Nature: Static (React-based, Gemini API embedded)
+✅ Design Style: Light, Colorful, Gradient-Animated
+✅ Highlight Feature: AI Course Selector (Gemini-powered)
+✅ Responsive: Fully mobile + desktop optimized
+✅ Page Speed: Optimized for lightweight visuals

@@ -1,0 +1,200 @@
+we have real, detailed content for one of the most important sections of your website:
+the DEEP Courses (Digital Employability Enhancement Program).
+
+Let’s organize everything systematically, so that when we go to design/build the site, you’ll have the complete structure + animation plan + content layout ready.
+
+🌐 DIGITAL TECH DRIVE WEBSITE MASTER STRUCTURE
+🏠 1. Homepage
+🎯 Purpose:
+
+Instantly impress visitors, show credibility, and guide them toward exploring courses or using the AI career advisor.
+
+📍 Structure (with Animation Plan):
+
+Top Hero Section (Animated Slider)
+
+Width: 1366px, Height: 351px
+
+Multiple sliding banner images (5–7 images)
+
+Showing: students learning, DEEP logo, computer labs, certificate awarding, etc.
+
+Animated fade/slide transitions (using Framer Motion or GSAP if supported)
+
+Overlay Text:
+
+“Empowering Lakhisarai’s Youth for a Digital Future”
+Subline: “Learn, Grow, and Get Job-Ready with KYP, DEEP & ADCA Courses”
+
+Buttons:
+
+🔵 “Explore Courses”
+
+🟢 “AI Career Guide”
+
+About Institution Section
+
+Smooth fade-in on scroll
+
+Logo on left, paragraph on right
+
+Content:
+
+“Digital Tech Drive is a premier Skill Development Center in Lakhisarai, Bihar.
+We empower students through government-certified courses like KYP, DEEP (MKCL), and ADCA — building digital confidence and employability.”
+
+Animated icons (Mission, Vision, Values)
+
+Courses Overview Section (3-Column Animated Cards)
+
+Cards for:
+
+KYP
+
+DEEP (MKCL)
+
+ADCA
+
+Each card glows slightly when hovered
+
+Animation: each card slides up or rotates into view on scroll
+
+Each has a “Know More” button
+
+AI Course Advisor Section 🤖 (Main Attraction)
+
+Popup / Section-based interaction
+
+Bright, colorful UI using your multi-color palette
+
+Animation: Floating bot icon glows, chat bubble expands with questions like:
+
+“Hi! I’m your AI Career Advisor. Let’s find the perfect course for you!”
+
+Questions (Multiple Choice):
+
+“Which subject did you study in 10th/12th?”
+
+“What’s your interest area?”
+
+“Do you prefer creative or technical skills?”
+
+After answering: suggests top 3 suitable DEEP or ADCA courses with links.
+
+Uses Gemini API for smart responses.
+
+Gallery (Animated Masonry Grid)
+
+Photos: classrooms, labs, students, certificate events.
+
+On hover: zoom + lightbox effect.
+
+Contact Section
+
+Address: Kabaiya Road, Naya Bazar, Lakhisarai, Bihar
+
+Phone: +91 62065 28684 / 7004973244
+
+Email: digitaltechdrive@gmail.com
+, kysdc2017lakhisarai@gmail.com
+
+Google Map Embed
+
+Animated appearance (slide from bottom)
+
+Footer
+
+Quick links, contact, social icons, copyright
+
+Smooth color transition gradient background
+
+📘 2. Courses Page (Main)
+A. Course Category Navigation Bar
+
+Animated color-tab filter:
+All | KYP | DEEP | ADCA
+
+B. DEEP Courses (Detailed Layout)
+
+We’ll display the DEEP courses in interactive cards with scroll animations.
+
+💡 Section Layout:
+
+Header:
+
+“Explore 80+ DEEP Certificate Courses by MKCL”
+“Build your career in Digital, IT, Management, and Creative domains.”
+
+Filter by Sector:
+(Accounting | Back Office | Designing | Digital Arts | Programming | etc.)
+
+🧩 Example Course Card Design:
+
+Each course card (animated scale-in) will show:
+
+Course Name
+
+Duration: 60 or 120 hours
+
+Short Description (auto-generated or static)
+
+Know More button → opens popup (with AI Assistant explaining details)
+
+Example:
+
+🎓 Foundations of AI & ML
+Duration: 60 hours
+Learn the fundamentals of Artificial Intelligence and Machine Learning for future-ready skills.
+[Know More]
+
+Animation: when user scrolls, cards appear one by one in color sequence (Red → Orange → Yellow → Green → Blue → Indigo → Violet → Pink) — this matches your multi-color theme.
+
+C. DEEP Tracks Section (Before course list)
+
+We’ll show the 12 DEEP Tracks with icons (like a wheel or grid layout):
+
+Back Office
+
+Digital Designing
+
+CAD Careers
+
+Digital Freelancing
+
+Front Office
+
+IT Hardware, Networking & Cyber Security
+
+Services Management
+
+New Collar Track
+
+Software Development
+
+Data Science
+
+Digital Creative Art
+
+Financial Accounting
+
+Each icon animates on hover (spin, pulse, or glow).
+
+📘 3. KYP & ADCA Pages
+
+We’ll later fill these similarly — smaller course list, focus on skill development and certification.
+
+⚙️ 4. Technical & Animation Plan
+Feature	Animation / Tool	Description
+Scroll animations	AOS / Framer Motion	Fade, slide, or zoom
+Hero slider	Swiper.js or Framer Motion carousel	Image transitions
+AI Advisor popup	Gemini API + floating animation	Chat-style
+Button hover	CSS glow + color change	Interactive UI
+Course cards	Sequential fade-in	Category-based delay
+Color theme	Multi-gradient palette	Rainbow but soft transitions
+🎨 Color & Branding Plan
+Element	Color
+Background	White / Light Grey
+Text	Black / Deep Grey
+Accent colors	Red, Orange, Yellow, Green, Teal, Blue, Indigo, Violet, Pink
+CTA Buttons	Gradient glow (from Orange → Blue)
+Footer	Light Grey with white text

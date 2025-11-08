@@ -1,0 +1,236 @@
+the About + Contact Page Wireframe for Digital Tech Drive.
+This will complete the website structure, keeping the same modern, colorful, and animated theme as the other pages.
+
+🏢 ABOUT + CONTACT PAGE WIREFRAME
+
+Page Purpose:
+
+Introduce the institution, mission, and vision
+
+Show credibility and milestones
+
+Give multiple ways for students to contact or locate the center
+
+Maintain the AI assistant for guidance
+
+🔹 1. TOP HEADER SECTION
+
+Layout & Elements:
+
+Same as homepage and other pages:
+
+Logo left
+
+Navigation menu (Home | About | Courses | AI Guide | Gallery | Contact)
+
+Call Now button right
+
+Animation:
+
+Slide down on page load
+
+Active menu item highlighted
+
+Background: white
+
+Text: deep grey
+
+🔹 2. HERO / BANNER SECTION
+
+Layout:
+
+Full-width banner (1366×351 px)
+
+Image: Students in classroom, computer lab, or digital training
+
+Overlay text:
+
+“About Digital Tech Drive”
+“Empowering Lakhisarai’s Youth for a Digital Future”
+
+Animation:
+
+Text fades in from bottom
+
+Subheading slides from left
+
+Optional slight parallax on banner image
+
+🔹 3. ABOUT INSTITUTION SECTION
+
+Layout:
+Two-column layout
+
+Left: Illustration or photo of institute / training
+
+Right: Text content
+
+Content:
+
+About Us:
+
+“Digital Tech Drive is a leading Skill Development Center in Lakhisarai, Bihar.
+We provide KYP, DEEP (MKCL), and ADCA courses to bridge the gap from college to careers.”
+
+Mission:
+
+“To empower local youth with digital and employability skills for sustainable careers.”
+
+Vision:
+
+“To create a digitally skilled and employable generation in Bihar.”
+
+Values / Highlights:
+
+• Certified Programs (Government & MKCL)
+• Hands-on Training
+• Career-Oriented Courses
+• Personalized AI Guidance
+
+Animation:
+
+Image slides in from left
+
+Text slides in from right
+
+Icons/values fade in one by one with slight zoom
+
+🔹 4. MILESTONES / TIMELINE SECTION
+
+Purpose: Show credibility & growth visually
+
+Layout:
+
+Horizontal timeline or vertical scrollable timeline
+
+Key milestones:
+
+2017 → Established
+
+2018 → Launched KYP
+
+2019 → Partnership with MKCL
+
+2021 → Expanded Courses
+
+2024 → 500+ Students Certified
+
+Animation:
+
+Timeline nodes appear sequentially on scroll
+
+Each milestone text slides in from left or right
+
+Small icon appears with bounce
+
+Color:
+
+Track each milestone node with gradient dot (multi-color theme)
+
+🔹 5. TEAM SECTION (Optional)
+
+Layout:
+
+Grid of instructor photos (3–4 per row)
+
+Each card:
+
+Photo, Name, Role, Small Icon for skill
+
+Animation:
+
+Cards fade in + scale on scroll
+
+Hover → lift + shadow glow
+
+🔹 6. CONTACT SECTION
+
+Layout:
+Two-column structure
+
+Left Column: Contact Details & Form
+
+Address: Kabaiya Road, Naya Bazar, Lakhisarai, Bihar
+
+Phone: +91 62065 28684 / 7004973244
+
+Email: digitaltechdrive@gmail.com
+ / kysdc2017lakhisarai@gmail.com
+
+Contact Form: Name, Email, Message, Submit Button
+
+Right Column: Google Map
+
+Embedded map showing location
+
+Animation:
+
+Left → slides in from left
+
+Right → slides in from right
+
+Icons glow on hover
+
+Form fields highlight when focused
+
+CTA Button:
+
+Submit → gradient glow pulse (Orange → Blue → Pink)
+
+🔹 7. AI COURSE ASSISTANT (Optional Floating Section)
+
+Same floating AI assistant as other pages
+
+Pulsates subtly
+
+Can be used to answer questions like:
+
+“Which program should I join?” or “Help me pick a course”
+
+Animation:
+
+Chat popup slides from bottom when clicked
+
+Message bubbles animate sequentially
+
+🔹 8. FOOTER
+
+Layout:
+
+Consistent with homepage / courses pages
+
+Sections:
+
+Left: Logo + Tagline
+
+“Empowering Lakhisarai’s Youth for a Digital Future”
+
+Center: Quick Links
+
+Home | About | Courses | AI Guide | Gallery | Contact
+
+Right: Social Media Icons (Facebook, Instagram, YouTube)
+
+Animation:
+
+Gradient background (soft moving gradient)
+
+Icons rotate subtly on hover
+
+🎨 COLOR & THEME
+Element	Color Style
+Background	White / Soft light gradient
+Accent / Buttons	Multi-color gradient pulse
+Icons	Matching section color theme (Orange / Blue / Green etc.)
+Text	Deep grey / Black for readability
+Timeline nodes	Multi-color per milestone
+🧩 ANIMATION SUMMARY
+Section	Animation Type
+Header	Slide down + highlight active
+Hero Banner	Text fade + slide, parallax background
+About Section	Image slide + Text slide, icon fade
+Milestones Timeline	Node bounce + text slide sequential
+Team Section	Fade-in + scale, hover lift
+Contact Section	Columns slide in, form fields glow
+Footer	Gradient animation, icons rotate
+AI Assistant	Floating pulse + chat popup slide + typing

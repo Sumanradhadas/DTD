@@ -1,0 +1,82 @@
+a full content + animation mapping for the entire Digital Tech Drive website.
+This will act as a ready-to-use blueprint for Replit Agent 3, so you can build the site in chunks without coding.
+
+We’ll cover Homepage, DEEP, KYP, ADCA, About, Contact, including text, images, buttons, colors, and animation triggers.
+
+🌐 DIGITAL TECH DRIVE — CONTENT + ANIMATION MAPPING
+1️⃣ HOMEPAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Logo (left), Menu: Home, About, Courses, AI Guide, Gallery, Contact	Call Now button (+91 62065 28684)	White background, text deep grey, active menu gradient underline	Slide-in on load, shrink on scroll
+Hero Slider	5–7 images (students, labs, certificates, DEEP/KYP/ADCA branding)	Explore Courses → scroll to courses, AI Career Guide → opens assistant	Multi-color overlay (soft gradient), white overlay text	Fade + slide horizontal, text fade-in with bounce buttons
+About Section	“Digital Tech Drive is a Skill Development Center in Lakhisarai, Bihar… We offer KYP, DEEP (MKCL), and ADCA programs.”	None	White background, deep grey text, icon accents multi-color	Image zoom in, text slides from left, icons fade sequential
+Courses Overview	3 cards: KYP, DEEP, ADCA (short description 1–2 lines each)	Know More button	Card accent colors: KYP-Orange, DEEP-Blue, ADCA-Green	Cards slide up sequentially, hover lift + glow
+AI Career Advisor	“Not sure which course fits you best? Let our AI guide you!”	Start Quiz button	Gradient background (Blue → Pink → Orange)	Floating AI icon pulsates, chat popup expands on click
+Gallery	Masonry grid of images	None	Light grey background	Zoom-in on scroll, lightbox opens on click
+Contact	Address, Phone, Email, Map embed	None	White background	Left column slides in from left, right column from right, icons glow on hover
+Footer	Logo + tagline, quick links, social media icons	None	Gradient background, white text	Gradient animation, icons rotate gently on hover
+2️⃣ DEEP COURSES PAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Same as homepage	Call Now	White	Slide-in on load
+Hero Banner	Image of students learning / AI / lab	Use AI Course Advisor → scroll down	Blue → Violet → Pink gradient overlay	Text fade-in line by line, background gradient slow shift
+DEEP Tracks	12 tracks with icon & name	None	Multi-color per track (Red → Violet)	Fade-in circular motion, hover scale + glow
+Filter / Search Bar	Search by course name / keyword, select track, select duration	Reset	White background, text deep grey, gradient highlights	Slide from top, hover glow on filters
+Course Grid	80+ courses as cards (name, duration, track, icon, short description)	Know More → popup, Add to Compare (optional)	Track colors as card border	Sequential fade + scale-in on scroll, hover lift + glow
+Course Popup	Course details, AI suggestion	Ask AI for personalized recommendation	White box, soft shadow glow matches track	Zoom-in popup, typing animation for AI
+AI Course Advisor Section	Chat interface, multiple choice questions	Submit / Next	Gradient background (Light Blue → Light Pink)	Chat window slides in, floating AI icon pulses, message bubble sequential typing
+Featured Courses	Carousel of 6–8 popular courses	None	Card glow matching track	Smooth horizontal auto-scroll, subtle glow
+CTA Banner	“Ready to Begin Your DEEP Journey?”	Contact Us, Enroll Today	Gradient buttons	Slide-up on scroll, button pulse
+Footer	Same as homepage	None	Gradient	Gradient animation, icons rotate
+3️⃣ KYP COURSES PAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Same as homepage	Call Now	White	Slide-in
+Hero Banner	KYP-themed image (students learning)	View Courses → scroll down, AI Career Guide	Orange / Yellow overlay	Text fade + slide, buttons pulse
+About Program	“Kushal Yuva Programme focuses on building basic digital literacy and employability skills…”	None	White	Image slide left, text slide right
+Courses Grid	6–10 KYP courses, each card: name, duration, icon, short description	Know More → popup, Ask AI	Card border: Orange → Yellow → Red	Slide-up sequential, hover lift + glow
+AI Course Advisor	Optional chat interface	Start Quiz	Gradient background	Floating AI icon pulsates, chat popup slides in
+CTA Banner	“Kickstart Your Career with KYP Courses”	Enroll Now, Contact Us	Gradient buttons	Slide-up + glow pulse
+Footer	Same as homepage	None	Gradient	Gradient animation
+4️⃣ ADCA COURSES PAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Same	Call Now	White	Slide-in
+Hero Banner	ADCA-themed image (computer lab / certificate)	View Courses, AI Career Guide	Blue → Green overlay	Text fade + slide, buttons pulse
+About Program	“Advanced Diploma in Computer Applications teaches practical IT skills…”	None	White	Image slide left, text slide right
+Courses Grid	6–10 ADCA courses, each card: name, duration, icon, short description	Know More → popup, Ask AI	Card border: Blue → Green → Teal	Slide-up sequential, hover lift + glow
+AI Course Advisor	Optional chat	Start Quiz	Gradient background	Floating AI icon pulsates, chat popup slides in
+CTA Banner	“Get Certified with ADCA Courses”	Enroll Now, Contact Us	Gradient buttons	Slide-up + glow pulse
+Footer	Same as homepage	None	Gradient	Gradient animation
+5️⃣ ABOUT PAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Same	Call Now	White	Slide-in
+Hero / Banner	Image of students / classrooms	None	White / soft gradient	Text fade + slide, parallax image
+About Institution	Mission, Vision, Values, About Us	None	White	Image slide left, text slide right, icons fade sequential
+Milestones Timeline	2017: Established → 2024: 500+ students certified	None	Multi-color milestone nodes	Nodes bounce sequentially, text slides left/right
+Team Section	Instructor photos + names + roles	None	Card hover glow	Fade-in + scale, hover lift
+Footer	Same as homepage	None	Gradient	Gradient animation
+6️⃣ CONTACT PAGE
+Section	Content	Buttons / CTA	Color / Accent	Animation
+Header	Same	Call Now	White	Slide-in
+Hero / Banner	Contact-related image	None	Light Blue gradient	Text fade + slide
+Contact Section	Two columns: Left: address, phones, emails, contact form; Right: Google Map	Submit button	Form field focus glow, map embedded	Left slides in from left, Right slides in from right
+AI Assistant	Floating chat for questions	Start Chat	Gradient background	Pulsating icon, popup slides up, typing animation
+Footer	Same	None	Gradient	Gradient animation
+7️⃣ COLOR PALETTE SUMMARY
+Element	Color
+Background	White / Light Grey / Soft Gradients
+Primary Buttons	Multi-color gradient pulse (Orange → Blue → Pink)
+Course Card Borders	Track-based color (Red, Orange, Yellow, Green, Teal, Blue, Indigo, Violet, Pink)
+Header / Footer	White header, Gradient footer
+Text	Deep grey / Black
+Icons / Accents	Matching section colors
+8️⃣ ANIMATION SUMMARY
+Animation Type	Sections Used
+Slide-in (Top/Side)	Header, About, Contact columns
+Fade + Scale	Course Cards, Team Section
+Gradient pulse / glow	Buttons, Footer, AI Assistant
+Floating animation	AI Assistant icons
+Popup Zoom	Course details, AI suggestions
+Sequential entry	Cards, Milestones, Tracks
+Typing effect	AI Assistant chat responses
+Carousel / Slider	Hero images, Featured courses
+
+This mapping covers every page, section, color, button, and animation, ready to hand to Replit Agent 3.
+It also integrates your multi-color modern theme + AI career guide + interactive popups.
