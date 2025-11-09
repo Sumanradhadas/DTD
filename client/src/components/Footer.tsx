@@ -62,6 +62,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* --- Bottom Section --- */}
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-400 text-sm text-center md:text-left">
             © 2024 Digital Tech Drive. All rights reserved.
@@ -92,6 +93,19 @@ export default function Footer() {
               <Youtube className="w-5 h-5" />
             </a>
           </div>
+        </div>
+
+        {/* --- WebGlow Credit --- */}
+        <div className="mt-6 text-center text-xs text-gray-400">
+          A demo Website by{' '}
+          <a
+            href="https://webglowx.onrender.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline font-medium"
+          >
+            WebGlow
+          </a>
         </div>
       </div>
     </footer>
