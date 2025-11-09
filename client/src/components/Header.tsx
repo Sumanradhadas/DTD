@@ -119,6 +119,19 @@ export default function Header() {
           </nav>
         </motion.div>
       )}
+
+      {/* --- WebGlow Credit --- */}
+      <div className="text-center text-xs text-muted-foreground mt-2 pb-2">
+        A demo Website by{' '}
+        <a
+          href="https://webglowx.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:underline font-medium"
+        >
+          WebGlow
+        </a>
+      </div>
     </motion.header>
   );
 }
